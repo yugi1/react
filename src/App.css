@@ -1,0 +1,40 @@
+*, :after, :before {
+  box-sizing: inherit;
+  margin: 0;
+}
+#root {
+  background-color: #2D232E;
+  color: #f4edea;
+
+}
+nav {
+
+}
+.views {
+  list-style: none;
+  display: flex;
+  font-family: 'Manrope', sans-serif;
+justify-content: right;
+padding-left: 150px;
+}
+
+li {
+  padding: 10px;
+  margin: 25px 0px 25px 0px;
+  font-size: 15px;
+}
+.logo {
+  font-family: 'Fredoka One', cursive;
+  color: #EFEDE6;
+  font-size: 80px;
+  display: flex;
+  justify-content: left;
+  padding: 260px;
+}
+.linksdec {
+  color: white;
+}
+.linksdec:hover {
+  color: #EA9010;
+  transition: .3s;
+}
