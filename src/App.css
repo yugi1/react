@@ -7,8 +7,19 @@
   color: #f4edea;
 
 }
-nav {
+#arrow {
+  font-size: 20px;
+  padding-left: 10px;
 
+}
+
+.header {
+  display: flex;
+  font-family: 'Fredoka One', cursive;
+  font-size: 45px;
+  justify-content: center;
+  padding: 100px 0px 100px 0px;
+  color: #2D232E;
 }
 .views {
   list-style: none;
@@ -17,7 +28,14 @@ nav {
 justify-content: right;
 padding-left: 150px;
 }
-
+.slogan {
+  font-family: 'Manrope', sans-serif;
+  color: #EA9010;
+  font-size: 20px;
+}
+.landing {
+  padding: 250px;
+}
 li {
   padding: 10px;
   margin: 25px 0px 25px 0px;
@@ -29,12 +47,105 @@ li {
   font-size: 80px;
   display: flex;
   justify-content: left;
-  padding: 260px;
+  
 }
 .linksdec {
-  color: white;
+  color: #EFEDE6;
 }
 .linksdec:hover {
   color: #EA9010;
   transition: .3s;
+}
+
+.outer, .outer2, .outer3, .outer4 {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+.home-content-sec1 {
+  background-color: #EFEDE6;
+ 
+}
+
+.sec-head-first {
+  font-size: 35px;
+  font-family: 'Manrope', sans-serif;
+  color: #2D232E;
+  display: flex;
+  justify-content: center;
+  padding: 110px 0px 90px 0px;
+}
+#quickscroll-first {
+  font-family: 'Manrope', sans-serif;
+  background-color: #2D232E;
+  border: #EFEDE6 3px solid;
+  border-radius: 30px;
+  padding: 15px;
+  color: #EFEDE6;
+  font-size: 15px;
+  margin-top: 25px;
+}
+#quickscroll-first:hover {
+  cursor: pointer;
+  color: #EA9010;
+  border-color: #EA9010;
+  transition: .6s;
+}
+.drafting, .about-header {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+}
+.break {
+  padding: 8px;
+}
+.first-icon-in-set {
+  color: #2D232E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+ padding-bottom: 100px;
+}
+.about-section {
+  background-color: #EFEDE6;
+  color: #2D232E;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+  font-size: 15px;
+}
+.p-holder p, .p-holder-two p {
+  font-size: 20px;
+  color: #2D232E;
+  display: flex;
+  width: 1000px;
+  padding-left: 120px;
+  padding-right: 50px;
+}
+
+.outer2 {
+  background-color: #EFEDE6;
+}
+.content-holder {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 135px;
+}
+.second-about-sec {
+  background-color: #EFEDE6;
+  color: #2D232E;
+}
+.education-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bigcon {
+  display: flex;
+  flex-direction: row;
+}
+.hero {
+  margin-left: 250px;
 }

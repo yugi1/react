@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
-
+import {GlobalContext, GlobalContextProvider} from "./context/globalcontext"; 
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalContextProvider>
     <App />
+    </GlobalContextProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
