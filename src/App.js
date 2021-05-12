@@ -3,6 +3,11 @@ import React from "react";
 import picture from './what.jpg';
 import education from './uvu.png';
 import gold from './texture.png';
+import drawingone from './draw/drawing1.png';
+import drawingtwo from './draw/drawing2.png';
+import drawingthree from './draw/drawing3.png';
+import drawingfour from './draw/drawing4.png';
+import drawingfive from './draw/drawing5.png';
 import {useGlobalContext} from "./context/globalcontext";
 import {
   BrowserRouter as Router,
@@ -135,7 +140,7 @@ function About() {
           </div>
         </div>
       </div>
-
+  
     </div>
 
   );
@@ -144,7 +149,24 @@ function About() {
 function Portfolio() {
   return (
     <div class="outer3">
+      
       <h2 class='header'>MY WORK</h2>
+      <div class="column">
+        <h5 class="heading">EVAPORATOR <span class="break"></span>CTRL<span class="break"></span>PANEL<span class="break"></span>2021</h5>
+      <img src={drawingone} alt="drawing" width='800'/>
+
+        <h5 class="heading">MECH ARM 2021</h5>
+        <img src={drawingtwo} alt="drawing" width='800'/>
+
+        <h5 class="heading">BOUNDARY 8 2021</h5>
+        <img src={drawingthree} alt="drawing" width='800'/>
+
+        <h5 class="heading">SITE PLAN #9</h5>
+        <img src={drawingfour} alt="drawing" width='800'/>
+
+        <h5 class="heading">BEAM #15 2021</h5>
+        <img src={drawingfive} alt="drawing" width='800'/>
+      </div>
     </div>
     
   );

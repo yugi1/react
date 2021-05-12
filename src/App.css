@@ -93,7 +93,7 @@ li {
   border-color: #EA9010;
   transition: .6s;
 }
-.drafting, .about-header {
+.drafting, .about-header, .heading {
   font-family: 'Manrope', sans-serif;
   font-size: 20px;
 }
@@ -125,7 +125,7 @@ li {
   padding-right: 50px;
 }
 
-.outer2 {
+.outer2, .outer3, .outer4 {
   background-color: #EFEDE6;
 }
 .content-holder {
@@ -148,4 +148,15 @@ li {
 }
 .hero {
   margin-left: 250px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #2D232E;
+}
+.column img {
+  padding: 50px;
 }
