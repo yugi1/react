@@ -154,9 +154,64 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.heading {
+.heading, .outer4 {
   color: #2D232E;
 }
 .column img {
   padding: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+
+}
+.button {
+  border: #2D232E 2px solid;
+  padding: 15px;
+  font-family: 'Manrope', sans-serif;
+  background-color: #EFEDE6;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.button:hover {
+  border-color: #EA9010;
+  cursor: pointer;
+  color: #EA9010;
+  transition: .3s;
+}
+#fname, #lname {
+  padding: 8px;
+  font-family: 'Manrope', sans-serif;
+  border: #2D232E 1px solid;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+#email {
+  font-family: 'Manrope', sans-serif;
+  border: #2D232E 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 50px;
+}
+#request {
+  font-family: 'Manrope', sans-serif;
+  border: #2D232E 1px solid;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+label {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+.ideas {
+  font-family: 'Manrope', sans-serif;
+ font-size: 20px;
+ padding-bottom: 70px;
+ display: flex;
+ justify-content: center;
 }

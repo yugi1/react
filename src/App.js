@@ -184,8 +184,27 @@ function Contact() {
   }
   return (
     <div class="outer4">
-      <h2 class='header'>CONTACT</h2>
-      <button onClick={handleSend}>Click me {contactCount}</button>
+      <h2 class='header'>CONTACT ME</h2>
+      
+      <div class="form">
+        <form>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"></input>
+
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"></input>
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"></input>
+          
+          <label for="request">Request:</label>
+          <input type="text" id="request" name="request" size="50"></input>
+
+          <button onClick={handleSend} class="button">Submit Request </button>
+
+        </form>
+        <h6 class="ideas">Ideas Created: {contactCount}</h6>
+      </div>
     </div>
   );
 }
